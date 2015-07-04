@@ -28,11 +28,11 @@ public class MainActivity extends ActionBarActivity {
             WebSettings webSettings = wv_main.getSettings();
             webSettings.setJavaScriptEnabled(true);
 
-        /*loading the url into webview*/
-            wv_main.loadUrl("http://ev.learnlabs.in");
+            /*loading the url into webview*/
+                wv_main.loadUrl("http://ev.learnlabs.in");
 
-        /*In order to access other links of the site*/
-            wv_main.setWebViewClient(new WebViewClient());
+            /*In order to access other links of the site*/
+                wv_main.setWebViewClient(new WebViewClient());
         }
     }
     private void showAlertDialog() {
